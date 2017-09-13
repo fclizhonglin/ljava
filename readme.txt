@@ -1,0 +1,1 @@
+something about my way to learn java.
