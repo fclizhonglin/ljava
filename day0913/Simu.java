@@ -2,8 +2,6 @@ package day0913;
 
 import java.util.Scanner;
 
-import javax.sound.midi.Synthesizer;
-
 public class Simu {
 
 	public static void main(String[] args) {

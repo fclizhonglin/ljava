@@ -33,6 +33,7 @@ public class If {
 			System.out.println("d");
 		}
 		/*该判断依照条件精度从大到小排列*/
+		sc.close();
 	}
 
 }

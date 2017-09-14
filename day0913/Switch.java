@@ -64,5 +64,6 @@ public class Switch {
 		}else{
 			System.out.println("平局，请重新开始游戏！");
 		}
+		sc.close();
 	}
 }
