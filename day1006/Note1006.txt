@@ -1,0 +1,18 @@
+集合框架
+1.非常重要！
+2.用来存储多个数据
+3.实现了不同的数据结构
+
+三大接口：
+1.Collection：所有集合的根类
+2.Map:映射接口（存放键值对）
+3.Iterator：迭代器（遍历数组或集合的接口）
+注：集合框架是由很多接口、抽象类、具体类组成，都位于util包下
+
+List：有序集合，元素有序插入，不唯一
+ArrayList常用方法：
+add（E e）、get(int index)、remove（int index）、removeall（）、set(int index,E e)、add(int index, E element)、addall()、clear() ；
+ArrayList相当于动态数组，存储不定长度且连续的数据元素，是项目中最常用的集合
+LinkedList：可以快速地插入、删除数据元素（当数据需要频繁的操作时，可以使用LinkedList）
+易混点：数组的长度：length（）：规定多少就是多少，不可更改
+	集合的size：size()：有多少算多少
